@@ -1,0 +1,44 @@
+/* ============================================= */
+/*              Overlay                           */
+/* ============================================= */
+
+#overlay {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    color: $white;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+  }
+  
+  .title {
+    color: #FFF;
+  }
+  
+  .start {
+    background-color: $color-start;
+  }
+  
+  .start a {
+    color: $color-win;
+  }
+  
+  .win {
+    background-color: $color-win;
+  }
+  
+  .win a {
+    color: $color-win;
+  }
+  
+  .lose {
+    background-color: $color-lose;
+  }
+  
+  .lose a {
+    color: $color-lose;
+  }

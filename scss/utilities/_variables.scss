@@ -5,9 +5,14 @@
 /*====== Colors ======*/
 
 // Main palette
-$color-primary: ;
-$color-secondary: ;
-$color-accent: ;
+$color-win: #78CF82;
+$color-lose: #D94545;
+$color-start: #5b85b7;
+$color-neutral: #445069;
+$color-neutral-light: #D2D2D2;
+$color-keys: #37474F;
+$color-keys-light: #E5E5E5;
+
 
 // General use
 $white: #fff;
@@ -19,6 +24,12 @@ $white: #fff;
 /*====== Values ======*/
 
 // Typography
+$font-size-large: 60px;
+$font-size-medium: 20px;
+
+// Transitions
+$transition: all .2s ease-in-out;
+
 
 // Media queries
 $med: 768px;

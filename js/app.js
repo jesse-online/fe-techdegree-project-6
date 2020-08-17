@@ -6,7 +6,7 @@ const qwerty = document.getElementById("qwerty");
 const phrase = document.getElementById("phrase");
 const scoreboard = document.getElementById("scoreboard");
 const hearts = scoreboard.querySelectorAll(".tries");
-const phrases = ["A pair of pajamas", "Six little ducks", "Spaghetti carbonara", "My dad is stronger", "A dime a dozen"];
+const phrases = ["A pair of pajamas", "Six little ducks", "Spaghetti marinara", "My dad is stronger", "A dime a dozen"];
 let currentPhraseNumber = "";
 let missed = 0;
 

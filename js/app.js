@@ -94,7 +94,7 @@ function showOverlay(className, msg) {
     // Allow player to see #phrase li transition before displaying screen
     setTimeout(() => {
         overlay.style.display = 'flex';
-    }, 1000);
+    }, 400);
 }
 
 function checkWin() {
@@ -111,8 +111,8 @@ function resetGame() {
     clearPhrase();
     resetQwerty();
     replenishHearts();
-    runGame();
     missed = 0;
+    runGame();
 }
 
 function clearPhrase() {

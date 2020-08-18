@@ -25,6 +25,7 @@
   
   .start {
     background-color: $color-start;
+    transition: $overlay-transition;
   }
   
   .start a {
@@ -33,6 +34,7 @@
   
   .win {
     background-color: $color-win;
+    transition: $overlay-transition;
   }
   
   .win a {
@@ -41,6 +43,7 @@
   
   .lose {
     background-color: $color-lose;
+    transition: $overlay-transition;
   }
   
   .lose a {

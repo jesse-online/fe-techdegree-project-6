@@ -496,6 +496,7 @@ button {
 
 .start {
   background-color: #5b85b7;
+  transition: all 0.2s ease-out;
 }
 
 .start a {
@@ -504,6 +505,7 @@ button {
 
 .win {
   background-color: #78CF82;
+  transition: all 0.2s ease-out;
 }
 
 .win a {
@@ -512,6 +514,7 @@ button {
 
 .lose {
   background-color: #D94545;
+  transition: all 0.2s ease-out;
 }
 
 .lose a {
